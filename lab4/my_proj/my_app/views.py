@@ -18,7 +18,7 @@ class HomePageView(View):
         names = ['John', 'Luke', 'Phil']
         fixed_names = my_functions.fix_names_list(names)
 
-        car1 = my_objects.Car(make="Honda", model="Civic", year=2020, color="blue", sound="hond honk")
+        car1 = my_objects.Car(make="Honda", model="Civic", year=2020, color="blue", sound="honk honk")
         car2 = my_objects.Car(make="Jeep", model="Wrangler", year=2008, color="red", sound="beep beep")
         motorcycle1 = my_objects.Motorcycle(make="Harley-Davidson", model="Street Glide", year=2019, color="black", sound="vroom vroom")
 
